@@ -1,0 +1,22 @@
+# Ignorar el entorno virtual (VENV)
+.venv/
+venv/
+
+# Paquetes y dependencias
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de depuración y logs
+*.log
+.coverage
+.pytest_cache/
+
+# Archivos de VS Code
+.vscode/
+
+# Editor específico (Opcional, si usas estos)
+.idea/
+*.swp
+*~
